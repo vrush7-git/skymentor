@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import SkymentorLogo from "@/app/assets/images/skymentor.png";
+import SkymentorLogo from "@/app/assets/images/skywhite.png";
 const itemArray = [
   { title: "Home", url: "/" },
   { title: "Services", url: "/Services" },
@@ -22,7 +22,7 @@ const Navbar = () => {
       {/* desktop */}
       <div className="flex relative z-[100] bg-black text-white md:text-lg flex-row justify-between px-6  sm:px-10 md:px-5 lg:px-20 py-3 items-center  ">
         <div className="text-primary flex items-center flex-col font-extrabold">
-          <Image src={SkymentorLogo} className="w-32 lg:w-40   " alt="Skymentor Logo" />
+          <Image src={SkymentorLogo} className="w-32 lg:w-52   " alt="Skymentor Logo" />
         </div>
         <ul className="hidden md:flex flex-row justify-between items-center gap-20 sm:gap-8 md:gap-10 lg:gap-20 font-semibold ">
           {itemArray.map((x, index) => {

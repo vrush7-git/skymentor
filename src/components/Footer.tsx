@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SkymentorLogo from "@/app/assets/images/skymentor.png";
+import SkymentorLogo from "@/app/assets/images/skywhite.png";
 import FacebookLogo from "@/app/assets/images/Facebook.png";
 import EmailLogo from "@/app/assets/images/Email.png";
 import InstaLogo from "@/app/assets/images/Instagram.png";
@@ -17,7 +17,7 @@ function Footer() {
               <a href="/" className="flex items-center">
                 <Image
                   src={SkymentorLogo}
-                  className="h-10 me-3"
+                  className=" w-32 lg:w-52 me-3"
                   alt="Skymentor Logo"
                 />
               </a>
